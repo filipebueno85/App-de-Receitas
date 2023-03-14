@@ -33,7 +33,7 @@ function RecipeDetails() {
   };
 
   const handleClickShare = () => {
-    copy(`http://localhost:3000${pathname}`);
+    copy(`http://aplicativo-de-receitas-18.vercel.app${pathname}`);
     setCopied(true);
   };
 

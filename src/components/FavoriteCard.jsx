@@ -16,7 +16,7 @@ function FavoriteCard({ recipe, index }) {
   const [copied, setCopied] = useState(false);
 
   const handleClickShare = () => {
-    copy(`http://localhost:3000/${type}s/${id}`);
+    copy(`http://aplicativo-de-receitas-18.vercel.app/${type}s/${id}`);
     setCopied(true);
   };
 

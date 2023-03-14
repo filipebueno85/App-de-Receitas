@@ -98,7 +98,7 @@ function RecipeInProgress() {
   };
 
   const handleClickShare = () => {
-    copy(`http://localhost:3000${pathname.split('/in-progress').join('')}`);
+    copy(`http://aplicativo-de-receitas-18.vercel.app${pathname.split('/in-progress').join('')}`);
     setCopied(true);
   };
 

@@ -29,7 +29,7 @@ function DoneRecipes() {
   };
 
   const handleClickShare = ({ type, id }) => {
-    copy(`http://localhost:3000/${type}s/${id}`);
+    copy(`http://aplicativo-de-receitas-18.vercel.app/${type}s/${id}`);
     setCopied(true);
   };
 
