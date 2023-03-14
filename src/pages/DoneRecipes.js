@@ -91,13 +91,13 @@ function DoneRecipes() {
               <Link to={ `/${doneRecipe.type}s/${doneRecipe.id}` }>
                 <div className="done-un-card">
                   <img
-                    width="200px"
+                    width="150px"
                     className="fav-card-img"
                     src={ doneRecipe.image }
                     alt={ `Foto de um(a) ${doneRecipe.name}` }
                     data-testid={ `${index}-horizontal-image` }
                   />
-                  <h1 data-testid={ `${index}-horizontal-name` }>{doneRecipe.name}</h1>
+                  <h4 data-testid={ `${index}-horizontal-name` }>{doneRecipe.name}</h4>
                 </div>
               </Link>
 
