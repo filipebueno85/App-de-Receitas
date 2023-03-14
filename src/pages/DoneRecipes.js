@@ -89,7 +89,7 @@ function DoneRecipes() {
           {done && done.map((doneRecipe, index) => (
             <div key={ index } className="done-cards">
               <Link to={ `/${doneRecipe.type}s/${doneRecipe.id}` }>
-                <div>
+                <div className="done-un-card">
                   <img
                     width="200px"
                     className="fav-card-img"
