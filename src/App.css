@@ -384,10 +384,10 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 3px;
-  height: 500px;
   margin: 10px;
+  min-height: 500px;
+  min-width: 250px;
   padding: 10px;
-  width: 250px;
 }
 
 .done-cards a {
