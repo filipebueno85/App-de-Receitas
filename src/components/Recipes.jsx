@@ -161,11 +161,12 @@ function Recipes({ title }) {
                   <div className="result-card">
                     <p data-testid={ `${index}-card-name` }>{ result.strMeal }</p>
                     <img
-                      style={ { width: '140px' } }
+                      style={ { width: '110px' } }
                       data-testid={ `${index}-card-img` }
                       src={ result.strMealThumb }
                       alt={ result.strMeal }
                     />
+                    <p>Ver Receita</p>
                   </div>
                 </Link>
               </div>
@@ -185,11 +186,12 @@ function Recipes({ title }) {
                   <div className="result-card">
                     <p data-testid={ `${index}-card-name` }>{ result.strDrink }</p>
                     <img
-                      style={ { width: '140px' } }
+                      style={ { width: '110px' } }
                       data-testid={ `${index}-card-img` }
                       src={ result.strDrinkThumb }
                       alt={ result.strDrink }
                     />
+                    <p>Ver Receita</p>
                   </div>
                 </Link>
 

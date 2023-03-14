@@ -306,7 +306,7 @@ header {
   display: flex;
   flex-direction: column;
   font-size: 1.2em;
-  gap: 10px;
+  gap: 5px;
   justify-content: center;
   margin: 5px;
   min-height: 300px;
@@ -314,9 +314,18 @@ header {
   width: 150px;
 }
 
+.result-card img {
+  border-radius: 5px;
+  box-shadow: 3px 2px 2px 1px rgba(34, 20, 15, 0.5);
+}
+
 .result-card p {
+  background-color: rgb(234, 233, 233);
+  border-radius: 5px;
   font-size: 15px;
+  padding: 5px;
   text-align: center;
+  width: 100%;
 }
 
 /* ------------------------- FOOTER ----------------------------- */
